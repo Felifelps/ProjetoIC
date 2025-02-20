@@ -33,6 +33,7 @@ main {
     gap: 15px;
     min-width: 600px;
     flex-grow: 1;
+    height: 100%;
 }
 
 section {
@@ -40,6 +41,14 @@ section {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+.central-up-section {
+    height: 30%;
+}
+
+.right-bottom-section {
+    height: 42.5%;
 }
 
 .container {
@@ -81,12 +90,58 @@ section {
     margin: 10px 0px;
 }
 
+.lateral-menu {
+    overflow: hidden;
+    height: 560px;
+    width: 150px;
+}
+
 .lateral-menu .secondary-link {
     margin-left: 10px;
 }
 
 .lateral-menu .container {
     padding: 0px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+
+.menu a:hover {
+    background-color: #555;
+  }
+  
+.Submenu {
+    list-style: none;
+    top: 0;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    background-color: #444;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.Submenu li a {
+    padding: 10px 0px 10px 0px;
+}
+
+.menu > li:hover .Submenu {
+    display: block;
 }
 
 footer {
