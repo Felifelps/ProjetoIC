@@ -134,8 +134,9 @@ section {
 }
 .lateral-menu {
     overflow: hidden;
-    height: 560px;
+    height: 99.5%;
     width: 150px;
+    margin-bottom: -300px;
     background: linear-gradient(to bottom, #808080 20%, #ffffff);
     padding: 0px;
     border: 1px solid black;
@@ -206,6 +207,7 @@ footer {
     border: 1px solid #2c3e50;
     color: black;
     padding: 10px 15px;
+    max-height: min-content;
 }
 
 footer .left,
