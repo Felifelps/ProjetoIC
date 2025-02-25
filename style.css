@@ -150,7 +150,7 @@ section {
     background: linear-gradient(to bottom, #808080 20%, #ffffff);
     padding: 0px;
     /* Removing section border behavior */
-    border: 0px solid black; 
+    border: 0px solid black;
     border-radius: 0px;
 }
 
