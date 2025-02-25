@@ -16,11 +16,10 @@ header {
     padding: 0px 15px;
     background: linear-gradient(to bottom, #a0a5a5 40%, white);
     border: 1px solid #2c3e50;
-    border-bottom: none;
     color: white;
 }
 
-header>h1 {
+header > h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: bold;
     color: black;
@@ -46,33 +45,30 @@ main {
 
 section {
     border: 1px solid #010c10;
-    border-radius: 5px;
+    border-radius: 2px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding: 10px;
 }
 
 .central-up-section {
-    height: 30%;
+    height: 26.5%;
     background: white;
 }
 
 .right-bottom-section {
     height: 42.5%;
     background: white;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 2px;
+    padding-bottom: 20px;
 }
 
 .container {
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     background: white;
-    border-radius: 5px;
-    padding: 10px;
     gap: 10px;
 }
 
@@ -110,56 +106,41 @@ section {
 .container .distant-line {
     justify-content: space-between;
 }
-
-#infos>img {
+#infos > img{
     width: 22px;
     height: 20px;
 }
-
-#tarifa>img {
+#tarifa > img{
     width: 20px;
     height: 20px;
 }
-
-#correio>img {
+#correio > img {
     width: 20px;
     height: 13px;
 }
-
-#backup>img {
+#backup > img{
     margin-top: 6px;
     width: 20px;
     height: 15px;
 }
-
-#audio>img {
+#audio > img {
     width: 15px;
     height: 15px;
 }
-
-#prop>p>img {
+#prop > p > img {
     width: 15px;
     height: 15px;
 }
 
 .lateral-menu {
     overflow: hidden;
-    height: 100%;
-    width: 175px;
-    margin-bottom: -300px;
-    background: linear-gradient(to bottom, #808080 20%, #ffffff);
+    height: auto;
+    width: 275px;
     padding: 0px;
-    /* Removing section border behavior */
-    border: 0px solid black;
-    border-radius: 0px;
 }
 
 .lateral-menu .secondary-link {
-    margin-left: 10px;
-}
-
-.lateral-menu .container {
-    padding: 0px;
+    border: 1px solid black;
 }
 
 .menu {
@@ -188,18 +169,14 @@ section {
     top: 0;
     padding: 0px;
     margin: 0px;
+    display: none;
     background-color: #ffffff;
     width: auto;
     box-sizing: border-box;
 }
 
-.sub-menu li {
-    border: 1px solid black;
-    border-bottom: none;
-}
-
 .sub-menu li a {
-    padding: 6px 0px;
+    padding: 10px 15px;
     color: black;
     text-decoration: none;
     display: block;
@@ -223,7 +200,7 @@ footer {
     border: 1px solid #2c3e50;
     color: black;
     padding: 10px 15px;
-    max-height: 30px;
+    max-height: 20px;
 }
 
 footer .left,
@@ -275,16 +252,10 @@ img {
     height: 100%;
     background-color: #003366;
     width: 70%;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 .progress-text {
     margin-left: 10px;
     color: #003366;
     font-weight: bold;
-}
-
-.user-name {
-    color: #d3671f;
 }
